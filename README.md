@@ -8,7 +8,7 @@ A check-splitting app that one might use after eating at a restuarant. The app c
 - FocusState
 - Observation
 
-## Demo
+## App Preview
 *Please wait for the demo GIF to load*
 
 <p align="center">
