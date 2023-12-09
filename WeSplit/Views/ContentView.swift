@@ -39,16 +39,16 @@ struct ContentView: View {
                 }
                 
                 Section {
-                    LabeledContent("Total amount") {
-                        Text(bill.totalAmount, format: .currency(code: currencyCode))
+                    LabeledContent("Total Bill") {
+                        Text(bill.totalBill, format: .currency(code: currencyCode))
                             .foregroundStyle(
                                 bill.tipPercentage == .zero
                                 ? .red
-                                : .primary
+                                : .secondary
                             )
                     }
                     
-                    LabeledContent("Amount per person") {
+                    LabeledContent("Amount Per Person") {
                         Text(bill.amountPerPerson, format: .currency(code: currencyCode))
                     }
                 }
