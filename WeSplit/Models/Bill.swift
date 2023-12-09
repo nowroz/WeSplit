@@ -21,11 +21,11 @@ final class Bill {
 }
 
 extension Bill {
-    var totalAmount: Double {
+    var totalBill: Double {
         checkAmount * (1 + tipPercentage)
     }
     
     var amountPerPerson: Double {
-        totalAmount / Double(numOfPeople)
+        totalBill / Double(numOfPeople)
     }
 }
